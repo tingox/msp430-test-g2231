@@ -7,7 +7,7 @@ MEMORY
      of address space. */
   RAM : ORIGIN = 0x0200, LENGTH = 0x0080
   ROM : ORIGIN = 0xF800, LENGTH = 0x07C0
-  VECTORS : ORIGIN = 0xFFC0, LENGTH = 0x3F
+  VECTORS : ORIGIN = 0xFFE0, LENGTH = 0x1F
 }
 
 /* Stack begins at the end of RAM:
