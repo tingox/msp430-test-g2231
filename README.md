@@ -7,6 +7,8 @@ Just an example for msp430g2231, built on
 
 This project is developed and maintained by the [MSP430 team][team].
 
+TEST
+
 ## Dependencies
 
 - Rust nightly-2022-01-24 or a newer toolchain. _Only nightly compilers work
