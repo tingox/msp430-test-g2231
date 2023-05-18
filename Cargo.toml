@@ -1,5 +1,5 @@
 [package]
-authors = ["Torfinn Ingolfsen <torfinn.ingolfsen@inventas.no>"]
+authors = ["Torfinn Ingolfsen <tingox@gmail.com>"]
 edition = "2018"
 readme = "README.md"
 name = "msp430-test-g2231"
