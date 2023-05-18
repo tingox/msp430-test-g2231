@@ -1,13 +1,14 @@
 MEMORY
 {
   /* msp430g2231: 128 bytes RAM, 2 kByte flash */
+  /* vectors run from 0xFFE0 to 0xFFFF inclusive */
   /* These values are correct for the msp430g2553 device. You will need to
      modify these values if using a different device. Room must be reserved
      for interrupt vectors plus reset vector and the end of the first 64kB
      of address space. */
   RAM : ORIGIN = 0x0200, LENGTH = 0x0080
   ROM : ORIGIN = 0xF800, LENGTH = 0x07C0
-  VECTORS : ORIGIN = 0xFFE0, LENGTH = 0x1F
+  VECTORS : ORIGIN = 0xFFE0, LENGTH = 0x20
 }
 
 /* Stack begins at the end of RAM:
